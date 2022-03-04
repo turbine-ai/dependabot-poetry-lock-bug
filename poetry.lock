@@ -1,0 +1,23 @@
+[[package]]
+name = "toml"
+version = "0.9.6"
+description = "Python Library for Tom's Obvious, Minimal Language"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://turbinetest.jfrog.io/artifactory/api/pypi/privaterepo/simple"
+reference = "privaterepo"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "652d570962ca3eb788b15045d1cb3d205b1f22e3e813fc8763346d6742e72e5e"
+
+[metadata.files]
+toml = [
+    {file = "toml-0.9.6-py2.py3-none-any.whl", hash = "sha256:a7901919d3e4f92ffba7ff40a9d697e35bbbc8a8049fe8da742f34c83606d957"},
+    {file = "toml-0.9.6.tar.gz", hash = "sha256:380178cde50a6a79f9d2cf6f42a62a5174febe5eea4126fe4038785f1d888d42"},
+]
